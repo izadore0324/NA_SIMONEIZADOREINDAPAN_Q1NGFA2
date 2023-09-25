@@ -2,46 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+#navbar{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(209, 238, 238);
+}
+#links{
+    display: inline;
+    margin: 2px;
+    
+}
+#navbar #links a{
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    opacity: .70;
+    transition: 0.4s;
+}
+#navbar #links a:hover{opacity: 1; transition: 0.4s;}
+#yt{
+    background-color: red; color:white;
+}
+#fb{
+    background-color: darkblue; color:white;
+}
+#dc{
+    background-color: rgb(97, 32, 158); color: white;
+}
+#rdt{
+    background-color: rgb(255, 51, 0); color: white;
+}
+#x{
+    background-color: rgb(45, 164, 204); color: white;
+}
+.rounded{
+    border-radius: 5px;
+}
+</style>
 </head>
 <body>
-    <h1>h1</h1>
-    <h2>h2</h2>
-    <h3>h3</h3>
-    <h4>h4</h4>
-    <h5>h5</h5>
-    <h6>h6</h6>
-    <p title="nasa barium si ano">sample paragraph</p>
-    <u>gay</u>
-    <i>haha bagsak</i>
-    <del>crush ko si</del>
-    <strong>ong frfr</strong>
-    <b>elmaw</b>
-    <hr><!--visible lmao-->
-    <sub>subscript mew</sub>
-    Normal
-    <sup>subscript pew pew</sup>
-    <ol>
-        <li>shes a female</li>
-        <ul>
-            <li>definitely</li>
-        </ul>
-        <li>shes not a boy</li>
-        <ul>
-            <li>so true</li>
-        </ul>
-        <li>most importantly, shes a girl</li>
-        <ul>
-            <li>women mwa</li>
-        </ul>
-    </ol>
-    <br><!--line break/not visible-->
-    <img src="b522044acfc244a48206ef53d4c8f822.jpg" alt="ICE PRINCE" width="400px" height="400px">
-    <!--width/height can be independently used-->
-    <br>
-    <img src="f47c8cec985d4265802e31bf7e504577.jpg" alt="MY LOVER" width="300px">
-    <br>
-    <a href="page2.html"><img src="click-here-button-with-hand-pointer-clicking-icon-free-vector.jpg" alt="click here fr" width="90px"></a>
+    <div id="navbar" class="rounded">
+            <div id="links"><a href="https://youtube.com" id="yt">Youtube</a></div>
+            <div id="links"><a href="https://facebook.com" id="fb">Facebook</a></div>
+            <div id="links"><a href="https://discord.com" id="dc">Discord</a></div>
+            <div id="links"><a href="https://reddit.com" id="rdt">Reddit</a></div>
+            <div id="links"><a href="https://x.com" id="x">Twitter</a></div>
+    </div>
+
+    <div><img src="" alt=""><a href=""></a></img></div>
+
+
 </body>
 </html>
